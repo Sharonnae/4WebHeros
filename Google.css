@@ -1,0 +1,43 @@
+/* class="lnXdpd" */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+    align-items: center;
+}
+
+/* 
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+} */
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.search {}
