@@ -40,4 +40,13 @@ header ul li {
     list-style: none;
 }
 
-.search {}
+.logo {
+
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
