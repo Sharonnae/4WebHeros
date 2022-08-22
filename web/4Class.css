@@ -1,0 +1,37 @@
+input[type="text"] {
+    color: aquamarine
+}
+
+body>a {
+    /* a after body */
+    color: green;
+}
+
+body a {
+    /* a inside body */
+    color: blue;
+}
+
+#buttonForReddit:hover {
+    background-color: black;
+}
+
+/* pseudo elements */
+.myp:nth-of-type(3n) {
+    background-color: orange;
+}
+
+.myp::first-letter {
+    font-size: large;
+}
+
+.myp::selection {
+
+    color: darkslategrey;
+}
+
+/* 
+https: //specificity.keegan.st/
+id
+class
+elements and pseudo elements */

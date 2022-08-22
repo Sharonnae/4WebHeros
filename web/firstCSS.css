@@ -1,0 +1,45 @@
+/* https: //www.cssfontstack.com/
+https: //coolors.co/ */
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    font-family: monospace;
+    text-decoration: pink wavy underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #00ff00;
+}
+
+h3 {
+    color: rgb;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+.warning {
+    line-height: 2.5;
+    color: purple;
+    text-decoration: underline;
+    font-weight: 80;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parid {
+    color: #2a9d8f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.classImage {
+    background-color: aquamarine;
+}
+
+/* id = one 
+class= several
+ */
