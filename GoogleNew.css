@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: 'arial', sans-serif;
+    color: #111;
+    font-size: 14px;
+
+}
+
+/* Header sectionn */
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+
+}
+
+header ul li button {
+    background: #4584ef;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 11px 22px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 60;
+}
+
+header ul li button:hover {
+    opacity: 0.9;
+    box-shadow: 0 1.5px 0 0 #e4e4e4;
+}
+
+.nav {
+    float: right;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 8px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+
+/* main section */
+
+main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.mainPage {
+    width: 580px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBox {
+    position: static;
+}
+
+#search {
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    display: block;
+    position: sticky;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px #E4E4E4;
+    margin-bottom: 20px;
+    outline: none;
+    text-indent: 15px;
+    border: #525252
+}
+
+.searchButtons {
+    border: none;
+    outline: none;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #111;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    margin: 11px 4px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    padding: 11px 22px;
+    font-weight: 60;
+}
+
+#languages {
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#languages a {
+    color: blue;
+}
+
+/* footer section */
+footer {
+    background: #f2f2f2;
+    font-family: arial, sans-serif;
+    line-height: 36px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px 30px;
+    border-bottom: 1px solid;
+    /* font-size: 15px;
+    color: #70757a; */
+}
+
+
+footer ul li {
+    /* display: inline; */
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+}
+
+footer ul {
+    float: none;
+    /* padding-bottom: 2px; */
+
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+
+.footer-right {
+    float: none;
+}
+
+
+
+.footer-right {
+    float: none;
+    text-align: right;
+    padding-top: 10px;
+}

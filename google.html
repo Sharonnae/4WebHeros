@@ -5,49 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Google.css">
+    <link rel="stylesheet" href="GoogleNew.css">
+    <link rel="icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png">
+
     <title>Google</title>
 </head>
 
 <body>
-    <section>
-        <header>
-            <ul>
-                <li><a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a></li>
-                <li><a href="https://www.google.co.il/imghp?hl=en&authuser=0&ogbl">Images</a></li>
-                <li> <img src="apps_logo.png" alt="Google Apps" <a
-                        href="https://www.google.co.il/intl/en/about/products" area-label="Google Apps"> </a></li>
-                <li><button>Sign In</button></li>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a class="links" href="https://mail.google.com/mail/?authuser=0&ogbl">gmail</a></li>
+                <li><a class="links" href="https://www.google.co.il/imghp?hl=en&authuser=0&ogbl">images</a></li>
+                <li id="apps"> <a href="https://www.google.co.il/intl/en/about/products" title="Google Apps"><img
+                            src="apps_logo.png" alt="google apps"></a></li>
+                <li><button
+                        onclick=location.href="https://accounts.google.com/ServiceLogin?hl=iw&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">sign
+                        in</button></li>
             </ul>
-        </header>
+        </nav>
+    </header>
 
-        <div class="mainPage">
-            <img alt="Google" height="92"
-                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272"
-                data-atf="1" data-frt="0">
-            <div class="SearchBox">
-                <input type="text" class="search">
-                <div class="icons">
-                    <img src="search.png" alt="search icon">
-                    <img src="microphone.png" alt="mic">
+    <main>
+        <div class="mainpage">
+            <div>
+                <img alt="google" height="92"
+                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272"
+                    data-atf="1" data-frt="0">
+            </div>
+            <form id="searchbox">
+                <div>
+                    <img src="search.png">
                 </div>
+                <div id="inputspan">
+                    <input id="search" type="text" name="search">
+                </div>
+                <div>
+                    <img src="microphone.png">
+                </div>
+                <div>
+                    <input class="searchButtons" type="submit" value="Google Search">
+                    <input class="searchButtons" type="submit" value="i'm feeling lucky">
+                </div>
+            </form>
+
+            <div id="languages">
+                <p>Google offered in: </p>
+                <a class="links"
+                    href="https://www.google.com/setprefs?sig=0_jfekk4d7pr96yydci1jqrd30pfu%3d&hl=iw&source=homepage&sa=x&ved=0ahukewiz_5ejzdr5ahxn0oukhtbgc78q2zgbcba">עברית</a>
+
+                <a class="links"
+                    href="https://www.google.com/setprefs?sig=0_bl9lvzqyjcduodlf1bd3yl56spc%3d&hl=ar&source=homepage&sa=x&ved=0ahukewihrlioqdl5ahucmuwkhstlbsiq2zgbcba">العربية</a>
             </div>
         </div>
-        <div class="buttons">
-            <button> <a></a>Google Search</button>
-            <button><a></a>I'm Feeling Lucky</button>
-        </div>
-        <ul class="language">
-            <li>Google offered in:</li>
-            <li><a
-                    href="https://www.google.com/setprefs?sig=0_JFeKk4d7PR96yYdCI1Jqrd30PfU%3D&hl=iw&source=homepage&sa=X&ved=0ahUKEwiz_5eJzdr5AhXN0oUKHTBgC78Q2ZgBCBA">עברית</a>
-            </li>
-            <li> <a
-                    href="https://www.google.com/setprefs?sig=0_BL9lvZQyJCDuODlf1BD3YL56SPc%3D&hl=ar&source=homepage&sa=X&ved=0ahUKEwiHrLioqdL5AhUCMuwKHStLBsIQ2ZgBCBA">العربية</a>
-            </li>
-        </ul>
+    </main>
 
-    </section>
+    <footer>
+        <span id=country>Israel</span>
+        <hr>
+        <nav>
+            <ul id="footer-left">
+                <li>settings</li>
+                <li><a class=links href="https://policies.google.com/terms?hl=en-il&fg=1">terms</a></li>
+                <li><a class=links href="https://policies.google.com/privacy?hl=en-il&fg=1">privacy </a></li>
+
+            </ul>
+            <ul id="right-right">
+                <li><a class="links"
+                        href="https://about.google/?utm_source=google-il&utm_medium=referral&utm_campaign=hp-footer&fg=1">about</a>
+                </li>
+                <li><a class="links" href="https://www.google.co.il/imghp?hl=en&authuser=0&ogbl">advertising</a></li>
+                <li><a class="links"
+                        href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">business</a>
+                </li>
+                <li><a class="links" href="https://google.com/search/howsearchworks/?fg=1">how search works</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
