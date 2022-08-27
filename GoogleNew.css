@@ -8,6 +8,7 @@
 
 }
 
+
 /* Header sectionn */
 
 header {
@@ -17,7 +18,6 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 5px;
-
 }
 
 header ul li button {
@@ -73,14 +73,11 @@ main {
     display: flex;
     justify-content: center;
     min-height: 80vh;
-
 }
 
 .searchBar {
     margin-left: -40%;
-    /* justify-content: center; */
     position: sticky;
-    /* margin: auto; */
     width: 200%;
     border-radius: 50px;
     display: flex;
@@ -135,7 +132,6 @@ input {
     padding: 11px 22px;
     font-weight: 60;
     display: flex;
-
 }
 
 .buttons {
@@ -161,48 +157,39 @@ input {
     display: flex;
 }
 
+
 /* footer section */
+
 footer {
     background: #f2f2f2;
     font-family: arial, sans-serif;
-    line-height: 36px;
+    line-height: 25px;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 15px 30px;
-    border-bottom: 1px solid;
-    /* font-size: 15px;
-    color: #70757a; */
+    font-size: 15px;
+    color: #70757a;
 }
 
-
 footer ul li {
-    /* display: inline; */
     color: #666666;
     font-size: 14px;
     padding: 13px;
-}
-
-footer ul {
-    float: none;
-    /* padding-bottom: 2px; */
-
 }
 
 footer ul li:hover {
     text-decoration: underline;
 }
 
-
-.footer-right {
-    float: none;
+.footer-left {
+    display: block;
+    float: left;
+    display: inline-block;
 }
 
-
-
 .footer-right {
-    float: none;
-    text-align: right;
-    padding-top: 10px;
+    display: flex;
+    justify-content: right;
 }
