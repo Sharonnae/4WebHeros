@@ -68,7 +68,7 @@ ul li {
 /* main section */
 
 main {
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -77,7 +77,11 @@ main {
 }
 
 .searchBar {
-    width: 150%;
+    margin-left: -40%;
+    /* justify-content: center; */
+    position: sticky;
+    /* margin: auto; */
+    width: 200%;
     border-radius: 50px;
     display: flex;
     height: 40px;
