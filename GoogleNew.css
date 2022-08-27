@@ -8,7 +8,6 @@
 
 }
 
-
 /* Header sectionn */
 
 header {
@@ -127,7 +126,7 @@ input {
     background-color: #f8f9fa;
     border-radius: 4px;
     font-family: arial, sans-serif;
-    margin: 11px 4px;
+    margin: 18px 4px;
     height: 36px;
     padding: 11px 22px;
     font-weight: 60;
@@ -138,6 +137,12 @@ input {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
 }
 
 #languages {
