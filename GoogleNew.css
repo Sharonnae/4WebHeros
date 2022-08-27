@@ -79,9 +79,10 @@ main {
 .mainPage {
     width: 580px;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .searchBox {
@@ -114,10 +115,20 @@ main {
     font-family: arial, sans-serif;
     margin: 11px 4px;
     height: 36px;
-    min-width: 54px;
-    text-align: center;
+
     padding: 11px 22px;
     font-weight: 60;
+
+    display: flex;
+
+}
+
+.buttons {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* display: inline-block; */
 }
 
 #languages {
@@ -129,6 +140,12 @@ main {
 
 #languages a {
     color: blue;
+}
+
+#logo {
+    margin: auto;
+    justify-content: center;
+    display: flex;
 }
 
 /* footer section */
